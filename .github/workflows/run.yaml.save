@@ -2,6 +2,6 @@ name: name-main
 on: [push]
 jobs:
  job-name:
-  runs-on: ubuntu-latest
+  runs-on:ubuntu-latest
   steps:
    - run: echo "This is pen"

@@ -5,7 +5,7 @@ on: push
 jobs:
   super-lint:
     name: Lint code base
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checjkout code
         uses: actions/checkoput@v2
